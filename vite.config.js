@@ -36,4 +36,11 @@ export default defineConfig({
   build: {
     minify: "esbuild",
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: "@import '/src/styles/_common.scss';",
+      },
+    },
+  },
 });

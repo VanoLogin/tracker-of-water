@@ -1,8 +1,8 @@
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 // import styles from "./style.module.scss";
 
 export default function SignInPage() {
-  const { t } = useTranslation();
-
-  return <div>{t("pages.registration.signInTitle")}</div>;
+  // const { t } = useTranslation();
+  // {t("pages.registration.signInTitle")}
+  return <div></div>;
 }
